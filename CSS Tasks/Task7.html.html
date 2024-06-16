@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-7</title>
+    <style>
+        .container1 {
+            border: 1px solid red;
+            width: 60%;
+            height: 600px;
+            background-color: rgb(134, 59, 59);
+            position: relative;
+            left: 200px;
+        }
+
+        .container2 {
+            border: 1px solid red;
+            width: 70%;
+            height: 550px;
+            background-color: maroon;
+            position: absolute;
+            left: 127px;
+            top: 23px;
+        }
+        table{
+            width: 58%;
+            
+        }
+        label{
+            color: white;
+            font-size: medium;
+        }
+        tr td {
+            padding: 10px; /* Adds space inside cells */
+        }
+
+        
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="container2">
+            <table>
+                <tr>
+                    <td><label for="">Name:</label></td>
+                    <td><input type="text" placeholder="your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" placeholder="your email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number :</label></td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender:</label></td>
+                    <td> <label for="">Male:</label><input type="radio">
+                        <label for="">Female:</label>
+                            <input type="radio">
+                        <label for="">Other:</label>
+                        <input type="radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">language</label></td>
+                    <td><select name="" id="">
+                        <option value="">select language</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Zip Code:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">About:</label></td>
+                    <td><input type="text" placeholder="Write about yourself"></td>
+                </tr>
+            </table>
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+
+</html>

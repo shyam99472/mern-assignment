@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
+    <style>
+
+      form {
+        margin-left: 20%;
+        margin-right: 20%;
+
+      }
+      .container {
+        padding: 10px;
+        margin: 10px;
+      }
+
+      input {
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+      }
+      .remember {
+        width: 30px;
+      }
+      img {
+        margin-left: 35%;
+        border-radius: 50%;
+        width: 30%;
+      }
+
+      .login {
+        background-color: rgb(27, 208, 27);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 2px;
+        width: 100%;
+
+      }
+      .cancel {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+      }
+      span {
+        margin-left: 70%;
+      }
+
+
+    </style>
+</head>
+<body>
+    <div>
+  
+        <form action="" method="POST">
+          
+          <img src="image.png" alt="image">
+          
+          <div class="container">
+            <label for=""><b>Username</b></label> <br>
+            <input type="text" placeholder="Enter Username"> <br>
+      
+            <label for=""><b>Password</b></label><br>
+            <input type="password" placeholder="Enter Password"> <br>
+              
+            <button type="submit" class="login">Login</button> <br>
+            <label>
+              <input type="checkbox" checked="checked" class="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button class="cancel">Cancel</button>
+            <span>Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    
+</body>
+</html>
